@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 2,
+  "style": "Soft matte 2.5D Captain Shu, warm light from upper left, consistent three-quarter camera, transparent RGBA PNG, no baked checkerboard or cast shadow",
+  "logicalRigSize": [
+    180,
+    220
+  ],
+  "sceneSize": [
+    324,
+    186
+  ],
+  "assets": [
+    {
+      "id": "captain-base",
+      "catalogName": "Shu25D-captain-base",
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "notes": "Head, torso and feet; no arms or handheld props; trim to 8 percent transparent padding.",
+      "contentBounds": [
+        0.0694006309148265,
+        0.06951871657754011,
+        0.861198738170347,
+        0.8609625668449198
+      ]
+    },
+    {
+      "id": "captain-holding",
+      "catalogName": "Shu25D-captain-holding",
+      "pivot": [
+        0.5,
+        0.94
+      ],
+      "notes": "Optional complete master for idle and icon pose.",
+      "contentBounds": [
+        0.06907894736842106,
+        0.06909430438842204,
+        0.8618421052631579,
+        0.861811391223156
+      ]
+    },
+    {
+      "id": "arm-near",
+      "catalogName": "Shu25D-arm-near",
+      "pivot": [
+        0.41464841375703126,
+        0.24784006523989302
+      ],
+      "rigShoulder": [
+        128,
+        126
+      ],
+      "notes": "Nearest arm including hand, neutral direction down; shoulder at top.",
+      "hand": [
+        0.4146484137570319,
+        0.7531685443026939
+      ]
+    },
+    {
+      "id": "arm-far",
+      "catalogName": "Shu25D-arm-far",
+      "pivot": [
+        0.5894108960697899,
+        0.18285236441178265
+      ],
+      "rigShoulder": [
+        53,
+        128
+      ],
+      "notes": "Far arm including hand, same light/material as near arm.",
+      "hand": [
+        0.5894108960697899,
+        0.7601623719849755
+      ]
+    },
+    {
+      "id": "hoe",
+      "catalogName": "Shu25D-hoe",
+      "pivot": [
+        0.24581176470588242,
+        0.31341868512110727
+      ],
+      "notes": "Grip at pivot; shaft downward, blade at bottom.",
+      "end": [
+        0.5047852474323062,
+        0.9258758650519031
+      ]
+    },
+    {
+      "id": "watering-can",
+      "catalogName": "Shu25D-watering-can",
+      "pivot": [
+        0.31810810810810813,
+        0.11630366492146596
+      ],
+      "emitter": [
+        0.8566126126126126,
+        0.46689842931937164
+      ],
+      "notes": "Spout points right, no baked water drops."
+    },
+    {
+      "id": "seedling",
+      "catalogName": "Shu25D-seedling",
+      "pivot": [
+        0.5,
+        0.9
+      ],
+      "notes": "Young green potato seedling with small visible soil plug."
+    },
+    {
+      "id": "raw-potato",
+      "catalogName": "Shu25D-raw-potato",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "notes": "Whole red-purple sweet potato, a small green stem, no glow."
+    },
+    {
+      "id": "roast-potato",
+      "catalogName": "Shu25D-roast-potato",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "notes": "Horizontal roast sweet potato, split peel, golden flesh; no baked steam.",
+      "contentBounds": [
+        0.06949458483754513,
+        0.0703125,
+        0.8610108303249098,
+        0.859375
+      ]
+    },
+    {
+      "id": "firepit",
+      "catalogName": "Shu25D-firepit",
+      "pivot": [
+        0.5,
+        0.85
+      ],
+      "notes": "Low crossed logs only; flame, glow and steam are separate procedural animation layers."
+    },
+    {
+      "id": "ground",
+      "catalogName": "Shu25D-ground",
+      "pivot": [
+        0.5,
+        0.8
+      ]
+    },
+    {
+      "id": "upper-arm",
+      "catalogName": "Shu25D-upper-arm",
+      "pivot": [
+        0.48,
+        0.13
+      ],
+      "end": [
+        0.53,
+        0.88
+      ],
+      "contentBounds": [
+        0.0625,
+        0.027777777777777776,
+        0.875,
+        0.9444444444444444
+      ],
+      "notes": "Generated toy component, real Vision alpha, deterministic rig canvas; source sheet unchanged."
+    },
+    {
+      "id": "forearm",
+      "catalogName": "Shu25D-forearm",
+      "pivot": [
+        0.5,
+        0.1
+      ],
+      "end": [
+        0.5,
+        0.9
+      ],
+      "contentBounds": [
+        0.07211538461538461,
+        0.028846153846153848,
+        0.8557692307692307,
+        0.9423076923076923
+      ],
+      "notes": "Generated toy component, real Vision alpha, deterministic rig canvas; source sheet unchanged."
+    },
+    {
+      "id": "palm-back",
+      "catalogName": "Shu25D-palm-back",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "end": [
+        0.5,
+        0.9
+      ],
+      "contentBounds": [
+        0.07083333333333333,
+        0.06944444444444445,
+        0.8583333333333333,
+        0.8611111111111112
+      ],
+      "notes": "Generated toy component, real Vision alpha, deterministic rig canvas; source sheet unchanged."
+    },
+    {
+      "id": "fingers-front",
+      "catalogName": "Shu25D-fingers-front",
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "end": [
+        0.5,
+        0.9
+      ],
+      "contentBounds": [
+        0.2375,
+        0.3263888888888889,
+        0.525,
+        0.3472222222222222
+      ],
+      "notes": "Generated toy component, real Vision alpha, deterministic rig canvas; source sheet unchanged."
+    },
+    {
+      "id": "leg-near",
+      "catalogName": "Shu25D-leg-near",
+      "pivot": [
+        0.43,
+        0.1
+      ],
+      "end": [
+        0.43,
+        0.75
+      ],
+      "contentBounds": [
+        0.09090909090909091,
+        0.041666666666666664,
+        0.8181818181818182,
+        0.9196428571428571
+      ],
+      "notes": "Generated toy component, real Vision alpha, deterministic rig canvas; source sheet unchanged."
+    },
+    {
+      "id": "leg-far",
+      "catalogName": "Shu25D-leg-far",
+      "pivot": [
+        0.43,
+        0.1
+      ],
+      "end": [
+        0.43,
+        0.75
+      ],
+      "contentBounds": [
+        0.09090909090909091,
+        0.041666666666666664,
+        0.8181818181818182,
+        0.9196428571428571
+      ],
+      "notes": "Generated toy component, real Vision alpha, deterministic rig canvas; source sheet unchanged."
+    },
+    {
+      "id": "short-arm",
+      "catalogName": "Shu25D-short-arm",
+      "pivot": [
+        0.45841784989858014,
+        0.12487411883182276
+      ],
+      "end": [
+        0.6288032454361054,
+        0.7784491440080564
+      ],
+      "notes": "One continuous short sleeve-arm-mitten sprite, no elbow or palm seam. Supersedes the rejected visible two-piece arm."
+    }
+  ],
+  "animationSeconds": {
+    "hoe": [
+      0,
+      6
+    ],
+    "plant": [
+      6,
+      12
+    ],
+    "water": [
+      12,
+      23
+    ],
+    "pull": [
+      23,
+      30
+    ],
+    "turn": [
+      30,
+      33
+    ],
+    "roast": [
+      33,
+      51
+    ],
+    "carry": [
+      51,
+      54
+    ],
+    "place": [
+      54,
+      56
+    ],
+    "returnHome": [
+      56,
+      60
+    ]
+  },
+  "persistence": "Visual sampling only; never writes or awards inventory. Authoritative rewards remain in notchIsland.potatoSession.v2."
+}

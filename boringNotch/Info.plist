@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>工位充电岛</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict/>
+	</array>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>com.dongfengrui.NotchIsland.tool-reorder</string>
+			<key>UTTypeDescription</key>
+			<string>Quick tool ordering</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.data</string>
+			</array>
+		</dict>
+	</array>
+	<key>SUEnableAutomaticChecks</key>
+	<false/>
+	<key>SUAutomaticallyUpdate</key>
+	<false/>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>在你使用日历功能时，工位充电岛读取日历以展示即将开始的日程。</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>在你使用提醒事项功能时，工位充电岛读取提醒事项并展示在日历中。</string>
+	<key>CFBundleDisplayName</key>
+	<string>工位充电岛</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>LSUIElement</key>
+	<true/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSCameraUsageDescription</key>
+	<string>使用镜子时，工位充电岛需要摄像头来展示实时预览。</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>使用蓝牙工具时，工位充电岛需要读取蓝牙开关状态，并在你点击切换时开启或关闭蓝牙。</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>工位充电岛控制你选择的媒体应用以播放、暂停和切歌；仅在你点击切换深色模式时，通过 System Events 更改系统外观。</string>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+{
+  "images": [
+    {
+      "filename": "arm-far.png",
+      "idiom": "universal"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}
