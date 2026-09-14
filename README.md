@@ -10,13 +10,8 @@
 
 <p align="center"><img src="boringNotch/Assets.xcassets/ShuIcon-captain.imageset/icon.png" width="150" alt="薯队长"></p>
 
-<!-- 截图位（补图后把下面几行的注释去掉即可）
-<p align="center"><img src="docs/screenshots/island.png" width="720" alt="展开后的小岛"></p>
-<p align="center">
-  <img src="docs/screenshots/timer.png" width="360" alt="红薯钟">
-  <img src="docs/screenshots/tools.png" width="360" alt="快捷工具页">
-</p>
--->
+<p align="center"><img src="docs/screenshots/island.png" width="820" alt="展开后的小岛：媒体控制、刘海歌词与日历"></p>
+<p align="center"><i>鼠标移到刘海上就展开：媒体控制、同步歌词、日历一屏可见</i></p>
 
 **👉 第一次来？直接看 [下载安装](#一下载安装第一次用-github-也不会装错)，三步装好。**
 
@@ -182,6 +177,8 @@ xattr -dr com.apple.quarantine /Applications/工位充电岛.app
 
 ### 3. 红薯钟（番茄钟）
 
+<p align="center"><img src="docs/screenshots/timer.png" width="820" alt="红薯钟：薯队长的小农场与库存"></p>
+
 在 🍠 页面。分「专注」和「休息」两种，同一时间只能跑一种。
 
 - **专注**：默认 25 分钟，可设 1–120 分钟。中间是圆环 + 剩余时间，薯队长会分六口把一颗烤红薯吃掉。完成消耗一颗库存；库存为 0 也能跑（试吃），不会欠账。
@@ -203,6 +200,8 @@ xattr -dr com.apple.quarantine /Applications/工位充电岛.app
 - **自动清理**：每个文件从进入时独立计时，可选不清理 / 12 小时 / 1 天 / 3 天 / 1 周（默认 1 天）。到期时**只有本应用自己在临时目录里生成的文件**（截图、录屏、剪贴板图片等）会真删；从访达拖进来的条目只是从列表里消失，**磁盘上的原文件不动**。
 
 ### 5. 快捷工具页
+
+<p align="center"><img src="docs/screenshots/tools.png" width="820" alt="快捷工具页：截屏录屏、秒表计时器、音量滑块等磁贴"></p>
 
 一整页磁贴，**共 73 项**，可在 设置 → 快捷工具 里勾选显示哪些、并按住三横线手柄拖着排序。
 

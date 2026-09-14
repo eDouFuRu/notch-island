@@ -10,13 +10,8 @@
 
 <p align="center"><img src="boringNotch/Assets.xcassets/ShuIcon-captain.imageset/icon.png" width="150" alt="Captain Shu"></p>
 
-<!-- Screenshot slots — uncomment once the images are added
-<p align="center"><img src="docs/screenshots/island.png" width="720" alt="The expanded island"></p>
-<p align="center">
-  <img src="docs/screenshots/timer.png" width="360" alt="Sweet Potato Timer">
-  <img src="docs/screenshots/tools.png" width="360" alt="Quick tools page">
-</p>
--->
+<p align="center"><img src="docs/screenshots/island.png" width="820" alt="The expanded island: media controls, lyrics and calendar"></p>
+<p align="center"><i>Hover the notch and it expands: media controls, synced lyrics and the calendar at a glance</i></p>
 
 **👉 New here? Jump straight to [Download & install](#1-download--install).**
 
@@ -180,6 +175,8 @@ Replaces the translucent system square for the **built-in keyboard's** volume, b
 
 ### 3. Sweet Potato Timer (pomodoro)
 
+<p align="center"><img src="docs/screenshots/timer.png" width="820" alt="Sweet Potato Timer: Captain Shu's farm and the potato stock"></p>
+
 On the 🍠 page. Focus and rest are mutually exclusive.
 
 - **Focus**: 25 minutes by default, 1–120 configurable. A ring shows the remaining time while Captain Shu eats a baked potato in six bites. Completing one consumes a potato from your stock; with zero stock you can still run a round ("tasting") and never go into debt.
@@ -201,6 +198,8 @@ A temporary tray for handing files from one place to another: drag in from Finde
 - **Automatic cleanup**: each file is timed from the moment it enters — never / 12 hours / 1 day / 3 days / 1 week (1 day by default). On expiry only files the app itself created in the temporary directory (screenshots, recordings, clipboard images…) are actually deleted; items dragged in from Finder merely disappear from the list, **their originals on disk are untouched**.
 
 ### 5. Quick tools page
+
+<p align="center"><img src="docs/screenshots/tools.png" width="820" alt="Quick tools page: capture, stopwatch, timer, volume slider and more"></p>
 
 A grid of tiles — **73 in total**. Choose which ones appear and drag the handles to reorder them in Settings → Quick tools.
 
